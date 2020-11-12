@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yuntu-community/business/business.iml" filepath="$PROJECT_DIR$/yuntu-community/business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuntu-community/common/common.iml" filepath="$PROJECT_DIR$/yuntu-community/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuntu-community/config/config.iml" filepath="$PROJECT_DIR$/yuntu-community/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuntu-community/gateway/gateway.iml" filepath="$PROJECT_DIR$/yuntu-community/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuntu-community/nacos/nacos.iml" filepath="$PROJECT_DIR$/yuntu-community/nacos/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yuntu.iml" filepath="$PROJECT_DIR$/.idea/yuntu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuntu-community/yuntu-community.iml" filepath="$PROJECT_DIR$/yuntu-community/yuntu-community.iml" />
+    </modules>
+  </component>
+</project>
