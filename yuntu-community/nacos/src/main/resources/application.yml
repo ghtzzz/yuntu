@@ -2,9 +2,14 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 10.101.1.96:8848
+        server-addr: 10.101.0.101:8848
         namespace: 804a877b-82bf-4ac7-8489-7b816b3e4d74
-        register-enabled: true
+      config:
+        server-addr: 10.101.0.101:8848
+        file-extension: .yml
+        namespace: 804a877b-82bf-4ac7-8489-7b816b3e4d74
+
+
 
   application:
     name: nacos-server

@@ -21,7 +21,8 @@
         <version>0.0.1</version>
         <!--spring cloud depend-->
         <spring.cloud-version>Hoxton.SR8</spring.cloud-version>
-        <nacos.version>2.2.1.RELEASE</nacos.version>
+        <nacos-discovery.version>2.2.1.RELEASE</nacos-discovery.version>
+        <nacos-config.version>2.2.1.RELEASE</nacos-config.version>
         <!--java version-->
         <java.version>8</java.version>
         <!--其他-->
@@ -42,7 +43,20 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-                <version>${nacos.version}</version>
+                <version>${nacos-discovery.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+                <version>${nacos-config.version}</version>
+            </dependency>
+
+            <!--spring-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>5.2.10.RELEASE</version>
             </dependency>
 
             <dependency>
